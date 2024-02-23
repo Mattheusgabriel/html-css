@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando hover</title>
+    <style>
+        body {
+            background-color:  rgba(0, 0, 0, 0.742);
+        }
+
+        h1{
+            color: white;
+        }
+
+        div {
+            color: white;
+        }
+
+        div > p {
+            display: none;
+            color: red;
+        }
+
+        div:hover > p {
+            display: block;
+        }
+
+        button:hover{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando hover</h1>
+    <p>Passe o Mouse no botão abaixo</p>
+    <div>
+        <button>Passe o mouse aqui</button>
+        <p>Texto escondido</p>
+    </div>
+    <p><a href="pseudoclasse.html" target="_self" rel="prev"><button><img src="botão-voltar.png" alt="flexível"></button></a></p>
+</body>
+</html>
