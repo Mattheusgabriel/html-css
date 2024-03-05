@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novo Exercicio</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        caption {
+            background-color: bisque;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bolder;
+            font-size: 1.5em;
+            padding: 5px;
+        }
+
+        table {
+            background-color: rgba(255, 228, 196, 0.371);
+            border: 1px solid black;
+            border-collapse: collapse;
+            height: 400px;
+            width: 600px;
+        }
+
+        th,td {
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        .Situação {
+            background-color: grey;
+            color: white;
+            text-align: left;
+            padding: 7px;
+        }
+
+        .Situação2 {
+            background-color: grey;
+            text-align: center;
+            color: white;
+            font-weight: bolder;
+
+        }
+
+        #head {
+            background-color: grey;
+            color: white;
+            
+
+        }
+    </style>
+</head>
+<body>
+   <table>
+    <caption>Boletim escolar</caption>
+    <thead id="head">
+            <tr>
+                <th rowspan="2" scope="colgroup">Área</th>
+                <th rowspan="2" scope="colgroup">Discuplina</th>
+                <th colspan="2" scope="colgroup">Notas</th>
+                <th rowspan="2" scope="colgroup">Média</th>
+            </tr>
+            <tr>
+                <th scope="row">Nota 1</th>
+                <th scope="row">Nota 2</th>
+            </tr>
+    </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
+                <td>Matemática</td>
+                <td>3.5</td>
+                <td>4.0</td>
+                <td>7.5</td>
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td>2.8</td>
+               <td>3.2</td>
+               <td>6.0</td>
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td>4.9</td>
+                <td>3.2</td>
+                <td>7.1</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>5.0</td>
+                <td>1.8</td>
+                <td>6.8</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="Situação">Situação do aluno</th>
+                <td class="Situação2">Aprovado</td>
+            </tr>
+            <tr>
+                <th rowspan="2" class="Humanas">Humanas</th>
+                <td>História</td>
+                <td>3.0</td>
+                <td>5.0</td>
+                <td>8.0</td>
+            </tr>
+            <tr>
+                <td>Geogrfia</td>
+                <td>5.0</td>
+                <td>5.0</td>
+                <td>10.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="Situação">Situação do aluno</th>
+                <td class="Situação2">Aprovado</td>
+            </tr>
+        </tbody>           
+   </table>
+</body>
+</html>
